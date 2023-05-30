@@ -9,6 +9,129 @@
 <param ve-entity eid="Q665489" aliases="Tunbridge Wells">
 <param ve-entity eid="Q23298" aliases="Kent">
 
+{
+  "type": "AnnotationPage",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld"
+  ],
+  "items": [
+    {
+      "id": "e0771fb6faaf0c41",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://map-view.nls.uk/iiif/2/22940%2F229407174/full/full/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://map-view.nls.uk/iiif/2/22940%2F229407174",
+            "type": "ImageService2"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"16640\" height=\"11407\"><polygon points=\"0,0 0,11407 16640,11407 16640,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "purpose": "gcp-georeferencing",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                5573,
+                3351
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                1.0757053,
+                51.2815248
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                11559,
+                8517
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                1.0783264,
+                51.2800332
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                10339,
+                9437
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                1.077467,
+                51.2792269
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                10565,
+                6622
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                1.077592,
+                51.2794187
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                7983,
+                5157
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                1.0768732,
+                51.2809346
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
 <param ve-map center="Q1094104" zoom="10">
 
 <!-- Historical map layers -->
